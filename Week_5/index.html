@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="NovaTech creates modern digital experiences, responsive websites, and innovative digital solutions.">
+
+    <title>NovaTech | Digital Experiences</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#app-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="nav-container">
+            <a class="logo" href="#home" aria-label="NovaTech home">
+                nova<span>tech.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
+                <a href="#home" data-route="home">Home</a>
+                <a href="#services" data-route="services">Services</a>
+                <a href="#projects" data-route="projects">Projects</a>
+                <a href="#about" data-route="about">About</a>
+            </nav>
+
+            <a class="nav-cta" href="#contact" data-route="contact">
+                Let's Talk <span aria-hidden="true">↗</span>
+            </a>
+        </div>
+    </header>
+
+    <main id="app-content" tabindex="-1">
+        <div id="page-content" aria-live="polite" aria-atomic="true">
+            <section class="loading-state">
+                <p>Loading NovaTech...</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a class="logo footer-logo" href="#home">
+                nova<span>tech.</span>
+            </a>
+
+            <p>Thoughtful design. Purposeful technology.</p>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span> NovaTech. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <noscript>
+        <p class="noscript-message">
+            This application requires JavaScript to display and navigate between pages.
+            Please enable JavaScript in your browser.
+        </p>
+    </noscript>
+</body>
+</html>
+
